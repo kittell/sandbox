@@ -1,0 +1,15 @@
+<? xml version = "1.0" ?>
+
+<deck>
+	<name>Simple math, don't judge</name>
+</deck>
+<cards>
+	<card>
+		<side1>4 + 5</side1>
+		<side2>9</side2>
+	</card>
+	<card>
+		<side1>3 + 5</side1>
+		<side2>8</side2>
+	</card>
+</cards>
