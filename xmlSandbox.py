@@ -34,10 +34,24 @@ def getDeckName():
                 print('deck')
                 #stoppedhere
     f.close()
-
 #    return deckName
+
+def findLocation(location):
+    # given a path tag1/tag2/tag3
+    # return the line number
+    # test with /cards/card[@id='1']/side1
+
+    # parse location into a list
+    locationList = []
+    currentWord = ''
+    for i in range(len(location)):
+        print(location[i])
+        #stoppedhere
+    
+    return 12345
 
 # MAIN
 
 print(countTags('card'))
 getDeckName()
+print(findLocation('/cards/card[@id=''1'']/side1'))
