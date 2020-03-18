@@ -4,11 +4,12 @@ Created on Mar 16, 2020
 @author: kirk@kirkkittell.com
 '''
 
-# https://stackoverflow.com/questions/20133479/how-to-draw-directed-graphs-using-networkx-in-python
-# https://networkx.github.io/
+# Documentation: https://networkx.github.io/documentation/stable/
 
 import matplotlib.pyplot as plt
 import networkx as nx
+
+# (1) Create a graph
 
 G = nx.DiGraph()
 G.add_edges_from([('D', 'B'), ('D', 'C'), ('D', 'A'), ('D', 'D')])
