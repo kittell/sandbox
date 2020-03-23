@@ -19,7 +19,7 @@ def hello_world():
         def create_widgets(self):
             self.hi_there = tk.Button(self)
             self.hi_there["text"] = "Hello world\n(click me)"
-            self.hi_there["command"] = self.say_hi()
+            self.hi_there["command"] = self.say_hi
             self.hi_there.pack(side="top")
             
             self.quit = tk.Button(self, text="Quit", fg="red", command=self.master.destroy)
