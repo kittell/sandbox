@@ -34,11 +34,23 @@ class Bond:
 #     def calc_ear(self):
 #         self.ear = 
 #         return self.ear
+
+
+def p1():
+    b = Bond(100)
+    b.set_term(6)
+    b.set_rate(0.05375)
+    b.set_ytm(0.02)
+    b.set_comp_freq(1)
+    print(b.calc_price())
+    print(b.coupon)
+    return
+
+
+class CashFlow:
+    def __init__(self):
+        return
+
+    def add_projection(self):
+        return
     
-b = Bond(100)
-b.set_term(6)
-b.set_rate(0.05375)
-b.set_ytm(0.02)
-b.set_comp_freq(1)
-print(b.calc_price())
-print(b.coupon)
