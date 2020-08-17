@@ -1,6 +1,10 @@
 # My ignores
 config.ini
-*.cpython-37.pyc
+*.cpython-38.pyc
+*.DS_Store
+archive.zip
+testfile.txt
+testzip.zip
 
 # Below this line: https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
 
